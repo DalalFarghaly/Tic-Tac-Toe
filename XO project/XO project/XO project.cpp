@@ -47,8 +47,7 @@ bool winerX()
 		order[0][0] == 'X' && order[1][1] == 'X' && order[2][2] == 'X' ||
 		order[0][2] == 'X' && order[1][1] == 'X' && order[2][0] == 'X')
 		return true;
-	else
-		return false;
+	else return false;
 }
 
 void playero()
